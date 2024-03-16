@@ -5,7 +5,7 @@ import './App.css'
 import LoginPage from './pages/LoginPage.jsx'
 import Home from './components/Home.jsx'
 import Navbar from './components/Navbar/Navbar.jsx'
-
+import Rent from './components/Rent/rent.jsx'
 
 function App() {
  
@@ -15,6 +15,7 @@ function App() {
       {/* <LoginPage/> */}
       <Navbar />
         <Home />
+        <Rent />
     </div>
   );
 }
