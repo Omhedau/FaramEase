@@ -8,7 +8,7 @@ const Navbar = () => {
         {/* Logo */}
         <img src="../src/assets/logo.png" alt="Company Logo" className="h-8 w-auto mr-2" />
         {/* Company Name */}
-        <h1 className="text-white text-lg font-semibold">Agro</h1>
+        <h1 className="text-white text-lg font-semibold">FarmEase</h1>
       </div>
       
       {/* Right side */}
