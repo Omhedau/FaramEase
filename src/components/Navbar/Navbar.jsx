@@ -2,7 +2,7 @@ import React from 'react';
 
 const Navbar = () => {
   return (
-    <nav className="bg-green-500 p-4 flex justify-between items-center">
+    <nav className="bg-gradient-to-r from-green-500 to-green-600 p-4 flex justify-between items-center">
       {/* Left side */}
       <div className="flex items-center ml-3">
         {/* Logo */}
