@@ -2,7 +2,9 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import Login from "./components/Login/Login.jsx"
+import LoginPage from './pages/LoginPage.jsx'
+import Home from './components/Home.jsx'
+import Navbar from './components/Navbar/Navbar.jsx'
 
 
 function App() {
@@ -10,9 +12,11 @@ function App() {
 
   return (
     <div>
-         <Login/>
+      {/* <LoginPage/> */}
+      <Navbar />
+        <Home />
     </div>
-  )
+  );
 }
 
 export default App

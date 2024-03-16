@@ -1,5 +1,3 @@
-// Login.js
-
 import React, { useState } from 'react';
 
 const Login = () => {
@@ -19,9 +17,8 @@ const Login = () => {
 
   return (
     <div className="flex items-center justify-center">
-
       {/* Login section */}
-      <div className="bg-[#f9f5ed] p-8 rounded shadow-md md:w-1/2 w-full">
+      <div className="bg-[#f9f5ed] p-8 rounded-xl shadow-md md:w-1/2 w-full">
         <h2 className="text-2xl font-extrabold mb-6 text-[#2F3C7E]">Login.</h2>
         <div className="mb-4">
           <label htmlFor="username" className="block text-[#2F3C7E]">Username</label>
