@@ -6,7 +6,7 @@ import CallSplitIcon from '@mui/icons-material/CallSplit';
 const Home = () => {
   return (
     <div>
-      <div className=" h-[39rem] bg-black flex justify-evenly items-center">
+      <div className=" h-[39rem] bg-gradient-to-b from-black to-[#020202ef] flex justify-evenly items-center">
         <div className="text-white">
           <h1 className="text-4xl font-bold">Revolutionizing Agriculture</h1>
           <p className="text-lg mt-5 text-gray-300">
@@ -36,7 +36,7 @@ const Home = () => {
 
       <hr className="" />
 
-      <div className=" h-[39rem] bg-black flex justify-evenly items-center">
+      <div className=" h-[39rem] bg-gradient-to-b from-black to-[#020202ef] flex justify-evenly items-center">
         <div>
           <img
             className="w-[400px] h-[37rem] object-cover object-center"
@@ -62,7 +62,7 @@ const Home = () => {
 
       <hr />
 
-      <div className=" h-[39rem] bg-black flex justify-evenly items-center">
+      <div className=" h-[39rem] bg-gradient-to-b from-black to-[#020202ef] flex justify-evenly items-center">
         <div className="text-white">
           <h1 className="text-4xl font-bold">Signature Features</h1>
           <p className="text-lg mt-5 text-gray-300">

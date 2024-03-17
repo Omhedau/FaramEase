@@ -6,6 +6,7 @@ import LoginPage from './pages/LoginPage.jsx'
 import Home from './components/Home.jsx'
 import Navbar from './components/Navbar/Navbar.jsx'
 import Rent from './components/Rent/rent.jsx'
+import ShareResources from './components/ShareResources/ShareResources.jsx'
 
 function App() {
  
@@ -13,9 +14,11 @@ function App() {
   return (
     <div>
       {/* <LoginPage/> */}
-      <Navbar />
+      {/* <Navbar />
         <Home />
-        <Rent />
+        <Rent /> */}
+      <ShareResources/>
+
     </div>
   );
 }
